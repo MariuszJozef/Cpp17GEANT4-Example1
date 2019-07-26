@@ -1,7 +1,7 @@
 # Cpp17GEANT4-Example1
 The same as GEANT4-MinimalExample1-CompileRunWithEclipse but refactored into C++17 code, in particular: a unique pointer is used instead of a raw pointer so the new and delete operators are avoided.
 
-A strange compilation error arises as shown below; it is resolved by writing the compiler flag "-std=c++17" after "``geant-config --cflags``", i.e. "``geant4-config --cflags`` -std=c++17".
+A strange compilation error arises as shown below; it is resolved by writing the compiler flag "-std=c++17" after "\`geant-config --cflags\`", i.e. "\`geant4-config --cflags\` -std=c++17".
 
 <img width="1417" alt="image" src="https://user-images.githubusercontent.com/51378175/61918102-795ea100-af50-11e9-9688-f16cb2754296.png">
 
